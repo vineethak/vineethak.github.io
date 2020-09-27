@@ -308,7 +308,7 @@
             <section class="clearfix">
               <div class="project-section">
                 <div class="project-container">
-                  <div class="project-img-container" onclick="document.getElementById('modal-wrapper').style.display='block'">
+                  <div class="project-img-container" onclick="document.getElementById('modal-wrapper-fair').style.display='block'">
                     <img src="./images/floor.jpg" alt="project image">
                   </div>
                   <p class="project-title">F.A.I.R - Frugal ADAS for Indian Roads</p>
@@ -362,6 +362,30 @@
                   <p class="project-title">Jigsaw-unintended-bias-in-toxicity-classification</p>
                 </div>
               </div>
+              <div id="modal-wrapper-fair" class="modal">
+
+                <form class="modal-content animate">
+
+                  <div class="imgcontainer">
+                    <span onclick="document.getElementById('modal-wrapper-fair').style.display='none'" class="close" title="Close PopUp">&times;</span>
+                    <img src="images/floor.jpg" alt="project" class="avatar">
+                    <h1 class="project_details" style="text-align:center">Project Details</h1>
+                  </div>
+
+                  <div class="container">
+                    <input type="text" placeholder="Project Name" name="Frugal ADAS for Indian Roads" readonly>
+                    <textarea class="project_description" rows="3" placeholder="Studied and developed a low cost ADAS 
+                     system for Indian Roads which includes object detection, pothole detection and road boundary segmentation." readonly></textarea>
+                    <input type="url" placeholder="Project Link"readonly>
+                    <input type="text" placeholder="Pytorch, C++, C" readonly>
+                    <button class="project_submit" type="submit">Submit</button>
+                  </div>
+
+                </form>
+
+              </div>
+              
+              
               <div id="modal-wrapper" class="modal">
 
                 <form class="modal-content animate">
